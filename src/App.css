@@ -1,0 +1,137 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  margin-left: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding-top: 20px;
+}
+
+.project-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.project-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.project-form input[type="text"],
+.project-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* Update textarea styles */
+.project-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  resize: vertical;
+  min-height: 120px; /* Increase the minimum height */
+}
+
+.project-form button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.project-form button:hover {
+  background-color: #0056b3;
+}
+/* App.css */
+/* ... (previous styles) ... */
+
+/* App.css */
+/* ... (previous styles) ... */
+
+.dashboard {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.dashboard p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.dashboard .button-container {
+  margin-top: 20px;
+  display: flex;
+}
+
+.dashboard .button-container a {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.dashboard a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dashboard a:hover {
+  background-color: #0056b3;
+}
